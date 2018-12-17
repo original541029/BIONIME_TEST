@@ -13,9 +13,19 @@ module.exports = {
       use: {
         loader: 'babel-loader',
         options: {
-          presets: ['@babel/preset-env']
+          presets: `` ['@babel/preset-env']
         }
       }
     }]
+  },
+  module: {
+    rules: [{
+      test: /\.scss$/,
+      use: ['style-loader', 'css-loader', 'sass-loader'],
+    }]
+  },
+  devServer: {
+    contentBase: "dist",
+    overlay: true
   }
 };
