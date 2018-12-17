@@ -90,10 +90,35 @@
 /*!*************************!*\
   !*** ./src/js/index.js ***!
   \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("var arr = ['mike', 'andy', '111', '123'];\narr.map(function (obj) {\n  return console.log(obj);\n});\n\n//# sourceURL=webpack:///./src/js/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _site_add_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./site-add.js */ \"./src/js/site-add.js\");\n/* harmony import */ var _site_list_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./site-list.js */ \"./src/js/site-list.js\");\n\n\n\nwindow.onload = function () {\n  Object(_site_add_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n  Object(_site_list_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n}; // const arr = ['mike', 'andy', '111', '123'];\n// arr.map(obj => console.log(obj))F\n\n//# sourceURL=webpack:///./src/js/index.js?");
+
+/***/ }),
+
+/***/ "./src/js/site-add.js":
+/*!****************************!*\
+  !*** ./src/js/site-add.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return siteAdd; });\nfunction siteAdd() {\n  console.log('aaa');\n}\n\n//# sourceURL=webpack:///./src/js/site-add.js?");
+
+/***/ }),
+
+/***/ "./src/js/site-list.js":
+/*!*****************************!*\
+  !*** ./src/js/site-list.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return siteList; });\nfunction siteList() {\n  console.log('ccc');\n}\n\n//# sourceURL=webpack:///./src/js/site-list.js?");
 
 /***/ })
 
