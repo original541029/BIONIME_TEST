@@ -1,15 +1,13 @@
-import siteAdd from "./site-add.js"
-import siteList from "./site-list.js"
-import styles from "../scss/index.scss"
-
-import {
-  EMLINK
-} from "constants";
-
-window.onload = () => {
-  siteAdd();
-  siteList();
-}
+// import 'jquery';
+// import 'bootstrap/dist/js/bootstrap';
+// import siteAdd from "./site-add.js"
+// import siteList from "./site-list.js"
+// import styles from "../scss/index.scss"
+// window.onload = () => {
+//   siteAdd();
+//   siteList();
+  
+// }
 class ForLoop {
   static basicLoop(ary, strElm, elm) {
     let str = ``;

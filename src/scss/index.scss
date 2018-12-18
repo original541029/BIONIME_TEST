@@ -1,8 +1,11 @@
 @import "media.scss";
-@import "custom.scss";
+@import "custom";
 @import "~bootstrap/scss/bootstrap";
 
 .nav-group {
   color: red;
 }
 
+body{
+  background-color: red;
+}
